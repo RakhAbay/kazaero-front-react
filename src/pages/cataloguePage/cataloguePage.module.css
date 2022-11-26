@@ -1,0 +1,48 @@
+.regular_border {
+    border-color: #C3D4E966;
+    border-style: solid;
+    border-radius: 1px;
+}
+
+.catalogue_container {
+    display: grid;
+    grid-template-columns: 2fr 8fr;
+    height: 87.2vh;
+}
+
+.svg_category {
+    /* margin: 0 18px 0 0; */
+}
+
+.svg_container {
+    display: inline-block;
+    width: 40px;
+}
+
+.categories {
+    background-color: #FFFFFF;
+    /* border-style: none solid none none;
+    border-color: rgb(150, 150, 150);
+    border-width: 1px; */
+    display: flex;
+	flex-direction: column;
+    align-items: center;
+}
+
+.categories h2 {
+    height: fit-content;
+}
+
+.categories ul {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+
+.categories li {
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+
+.sub_categories {
+    background-color: #F9F9F9;
+}

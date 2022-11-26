@@ -1,0 +1,50 @@
+.item_card {
+    height: 335px;
+    width: 294px;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: #90A3BF;
+    border-width: 1px;
+    background-color: white;
+}
+
+.image_wrapper {
+    height: 200px;
+    display: grid;
+    place-items: center
+}
+
+.info_wrapper {
+    height: 150px;
+    padding: 12px;
+    border-style: solid none none none;
+    border-color: #90A3BF;
+    border-width: 1px;
+}
+
+.item_name h3 {
+    margin: 0;
+    font-size: 16px;
+}
+
+.item_category p {
+    margin: 3px 0 0 0;
+    font-size: 14px;
+    font-weight: 700;
+    color: #90A3BF;
+}
+
+
+.item_price {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+
+}
+
+.item_price p {
+    margin: 0 0 0 0;
+    font-size: 15px;
+    font-weight: 700;
+    align-self: flex-end;
+}

@@ -1,0 +1,11 @@
+{
+    "electronics": [
+        {"name": "smartphones and gadgets", "subtypes": ["smartphones", "button phones", "smart watch"]},
+        {"name": "laptops and tablets", "subtypes": ["laptops", "laptop accessories", "gaming", "tablets"]}
+    ],
+    "chemistry": [
+        {"name": "Home", "subtypes": ["floor washing", "mirrior washing"]},
+        {"name": "Non-home", "subtypes": ["car washing"]}
+    ]
+}
+

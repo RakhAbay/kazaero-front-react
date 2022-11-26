@@ -1,0 +1,73 @@
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    opacity: 1; /* Firefox */
+    padding: 0 0 0 30px;
+    font-size: 25px;
+}
+
+.navbar_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    min-height: 124px;
+    align-items: center;
+}
+
+.regular_border {
+    border-color: #C3D4E966;
+    border-style: solid;
+    border-radius: 1px;
+}
+
+.logo {
+    padding: 10px 10px 10px 60px;
+    min-width: 180px;
+}
+
+.logo_vertical {
+    display: flex;
+    flex-direction: column;
+}
+
+.catalog_button {
+    border-radius: 20px;
+    border-style: none;
+    padding: 16px 36px 16px 36px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #16AB19;
+    color: white;
+}
+
+.searchbar input {
+    padding: 0 0 0 20px;
+    font-size: 25px;
+    width: 477px;
+    height: 55px;
+    border-radius: 60px;
+    border-width: 1px;
+}
+
+.grey_circle_border {
+    min-width: 44px;
+    min-height: 44px;
+    border-radius: 100px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #C3D4E966;
+    display: grid;
+	place-items: center
+}
+
+.login_button {
+    border-radius: 20px;
+    border-style: none;
+    padding: 16px 36px 16px 36px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #596780;
+    color: white;
+}
+
+.space {
+    width: 300px;
+}
